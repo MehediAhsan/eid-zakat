@@ -1,4 +1,38 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%), url(./img/1278511-976895269.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+.headercontainer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;   
+}
+.headercontent{   
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 48%;
+    color: white;
+}
+.headercontent h1{
+    font-size: 55px;
+}
+.headercontent p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.link-button{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 15px;
+    border-radius: 5px;
+    line-height: 80px;
+    color: white;
 }
